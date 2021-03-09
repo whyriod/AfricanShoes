@@ -15,6 +15,11 @@ body, html {
 
 body{
   margin-bottom: 2.5rem;
+  background-color: #121212;
+}
+
+.lightColor{
+  color:black;
 }
 
 .responsive{
@@ -26,10 +31,9 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
   text-align:center;
 }
-
 
 .mainPicture{
   background: grey;
@@ -37,9 +41,15 @@ body{
   text-align: center;
 }
 
+.salesPicture{
+  max-height: 300px;
+  max-width: 300px;
+  bottom:0px;
+  align-content:end;
+}
+
 
 .page{
-  background-color: #121212;
   width: auto;
   height: auto;
 }
